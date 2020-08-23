@@ -1,11 +1,6 @@
 # code
-# 1: Success
-# 0: Error
-
-# if you want sub-folders inside folders to move to new directory as well
-folder_unzip = False
-# if you want empty folders to be removed after moving files to new directory
-delete_empty_folders_var = True
+1: Success
+0: Error
 
 command-line:
 
