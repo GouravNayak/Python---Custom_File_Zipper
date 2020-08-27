@@ -1,6 +1,6 @@
 # Code
-# 1: Success
-# 0: Error
+1: Success
+0: Error
 
 # If you want sub-folders inside folders to move to new directory as well
 folder_unzip = False
