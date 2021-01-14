@@ -68,7 +68,9 @@ def pack_files_to_directory(source_path, destination_path, bundle_count):
     if source_status_code == 0:
         return source_status_message, 0
     if destination_status_code == 0:
-        return destination_status_message, 0
+      # Create the target directory if not available
+        os.mkdir(destination_path)
+        #return destination_status_message, 0
 
     success_message = ''
     status_code = 1
